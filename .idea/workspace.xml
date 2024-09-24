@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85837388-d273-450b-890f-047dd5729de4" name="Changes" comment="all system out cleaned, code refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="topPanelIssues" />
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dYVJ1NUAl2QSM9oAhwM1m6NI9z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.game [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/boombastic/game/src/assets/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;G:/soft-tech/boombastic/game/gameModule/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\boombastic\game\src\assets\icons" />
+      <recent name="G:\boombastic\game\src\entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="item.bomb" />
+      <recent name="cell.normalCell" />
+      <recent name="cell.box" />
+      <recent name="gameengine" />
+      <recent name="item" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="graalvm-ce-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="game [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Maven.game [test]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.game [test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85837388-d273-450b-890f-047dd5729de4" name="Changes" comment="" />
+      <created>1710185004978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710185004978</updated>
+      <workItem from="1710185006035" duration="2873000" />
+      <workItem from="1712772296831" duration="704000" />
+      <workItem from="1712820223602" duration="2463000" />
+      <workItem from="1713165836496" duration="5723000" />
+      <workItem from="1713171978787" duration="325000" />
+      <workItem from="1713213474912" duration="348000" />
+      <workItem from="1713214868959" duration="59000" />
+      <workItem from="1713216238138" duration="1342000" />
+      <workItem from="1713260467846" duration="3824000" />
+      <workItem from="1713788696944" duration="411000" />
+      <workItem from="1713909847819" duration="2727000" />
+      <workItem from="1713954120479" duration="927000" />
+      <workItem from="1713957123124" duration="1773000" />
+      <workItem from="1714641905237" duration="53000" />
+      <workItem from="1715702986998" duration="1991000" />
+      <workItem from="1715705149992" duration="1059000" />
+      <workItem from="1715792477249" duration="615000" />
+      <workItem from="1715803055266" duration="217000" />
+      <workItem from="1715897458541" duration="685000" />
+      <workItem from="1717185990782" duration="352000" />
+      <workItem from="1718009477222" duration="30000" />
+      <workItem from="1725299741171" duration="229000" />
+      <workItem from="1726817317862" duration="647000" />
+      <workItem from="1726818075592" duration="619000" />
+    </task>
+    <task id="LOCAL-00001" summary="clean project created">
+      <option name="closed" value="true" />
+      <created>1710185096556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710185096556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="folder structure for power up, curse ,cell, entity added">
+      <option name="closed" value="true" />
+      <created>1710186653117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710186653117</updated>
+    </task>
+    <task id="LOCAL-00003" summary="basic power up drop after box destruction added">
+      <option name="closed" value="true" />
+      <created>1713263088807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713263088807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="game engine and bomb code cleaned up">
+      <option name="closed" value="true" />
+      <created>1713263650958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713263650958</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Logic improved for setting, collecting items ingame. (Combined curse and powerup logic). Added LowSpeed and BombBlastReduction curses!">
+      <option name="closed" value="true" />
+      <created>1713350312430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713350312430</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wrong monster image fixed">
+      <option name="closed" value="true" />
+      <created>1713384763277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713384763277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed a walkable tile from walkablepaths, because it was not visually appealing.&#10;&#10;Added a new Box asset to boxPaths.">
+      <option name="closed" value="true" />
+      <created>1713385755905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713385755905</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <option name="closed" value="true" />
+      <created>1713385861222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713385861222</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Removed a walkable tile from walkablepaths, because it was not visually appealing.&#10;&#10;Added a new Box asset to boxPaths.">
+      <option name="closed" value="true" />
+      <created>1713385905659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713385905659</updated>
+    </task>
+    <task id="LOCAL-00010" summary="NEW dead image for top pnel">
+      <option name="closed" value="true" />
+      <created>1713387039974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713387039974</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <option name="closed" value="true" />
+      <created>1713910054522</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713910054522</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test-no-docker">
+      <option name="closed" value="true" />
+      <created>1713910182431</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713910182431</updated>
+    </task>
+    <task id="LOCAL-00013" summary="maven framework support added">
+      <option name="closed" value="true" />
+      <created>1713910335104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713910335104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="other setup file added">
+      <option name="closed" value="true" />
+      <created>1713910503346</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713910503346</updated>
+    </task>
+    <task id="LOCAL-00015" summary="support java 8 syntax added">
+      <option name="closed" value="true" />
+      <created>1713910623262</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713910623262</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test attempt">
+      <option name="closed" value="true" />
+      <created>1713911054858</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713911054858</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test path corrected">
+      <option name="closed" value="true" />
+      <created>1713911243465</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713911243465</updated>
+    </task>
+    <task id="LOCAL-00018" summary="code path for maven changed">
+      <option name="closed" value="true" />
+      <created>1713911885786</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713911885786</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fail test added">
+      <option name="closed" value="true" />
+      <created>1713912124816</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713912124816</updated>
+    </task>
+    <task id="LOCAL-00020" summary="unresolved files added">
+      <option name="closed" value="true" />
+      <created>1713954546981</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713954546981</updated>
+    </task>
+    <task id="LOCAL-00021" summary="player change issue fixed">
+      <option name="closed" value="true" />
+      <created>1713990450015</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713990450015</updated>
+    </task>
+    <task id="LOCAL-00022" summary="player change issue fixed">
+      <option name="closed" value="true" />
+      <created>1713990505386</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713990505386</updated>
+    </task>
+    <task id="LOCAL-00023" summary="unused code in entity cleaned">
+      <option name="closed" value="true" />
+      <created>1715703248426</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715703248426</updated>
+    </task>
+    <task id="LOCAL-00024" summary="items (powerups , curses) not resetting in the next round issue fixed">
+      <option name="closed" value="true" />
+      <created>1715704052805</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704052805</updated>
+    </task>
+    <task id="LOCAL-00025" summary="import fixed">
+      <option name="closed" value="true" />
+      <created>1715704104935</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704104935</updated>
+    </task>
+    <task id="LOCAL-00026" summary="useless import removed">
+      <option name="closed" value="true" />
+      <created>1715704175367</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704175367</updated>
+    </task>
+    <task id="LOCAL-00027" summary="system out cleaned">
+      <option name="closed" value="true" />
+      <created>1715704241271</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704241271</updated>
+    </task>
+    <task id="LOCAL-00028" summary="all system out cleaned, code refactored">
+      <option name="closed" value="true" />
+      <created>1715704377622</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704377622</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Logic improved for setting, collecting items ingame. (Combined curse and powerup logic). Added LowSpeed and BombBlastReduction curses!" />
+    <MESSAGE value="wrong monster image fixed" />
+    <MESSAGE value="." />
+    <MESSAGE value="Removed a walkable tile from walkablepaths, because it was not visually appealing.&#10;&#10;Added a new Box asset to boxPaths." />
+    <MESSAGE value="NEW dead image for top pnel" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test-no-docker" />
+    <MESSAGE value="maven framework support added" />
+    <MESSAGE value="other setup file added" />
+    <MESSAGE value="support java 8 syntax added" />
+    <MESSAGE value="test attempt" />
+    <MESSAGE value="test path corrected" />
+    <MESSAGE value="code path for maven changed" />
+    <MESSAGE value="fail test added" />
+    <MESSAGE value="unresolved files added" />
+    <MESSAGE value="player change issue fixed" />
+    <MESSAGE value="unused code in entity cleaned" />
+    <MESSAGE value="items (powerups , curses) not resetting in the next round issue fixed" />
+    <MESSAGE value="import fixed" />
+    <MESSAGE value="useless import removed" />
+    <MESSAGE value="system out cleaned" />
+    <MESSAGE value="all system out cleaned, code refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="all system out cleaned, code refactored" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
